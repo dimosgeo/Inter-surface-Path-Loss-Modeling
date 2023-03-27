@@ -32,6 +32,6 @@ function [distance_array,pathloss_array]=generatePathLossGraph(environment,l,ray
         label.Text=[txt,', ',num2str(round(100*k/ls,2)),'%'];
         pause(0);
     end
-    csvwrite('output_files/distance',distance_array);
-    csvwrite('output_files/pathloss',pathloss_array);
+    writematrix(distance_array, 'output_files/distance');
+    writematrix(pathloss_array, 'output_files/pathloss');
 end
