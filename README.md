@@ -33,7 +33,9 @@ The user can setup the environment that contains the Transmitter, the Receiver a
 * On each Meta-surface setting panel, user can customize the positioning, the angles and the size of the Meta-surface.
 * In general tab, user can set the Frequency of the radiowaves and also the number of the cells surfaces that forms the grid of Meta-surfaces by choosing the number of elements in one side.
 
-On Main Menu users can:
+![Scene](img/Scene.png)
+
+On Main Menu user can:
  * Set the number of Rays that Transmitter casts for each cell surface on the Meta-surface grid.
  * Plot the scene and visualize the environment
  * Begin Ray Tracing
