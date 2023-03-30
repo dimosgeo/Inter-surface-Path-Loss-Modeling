@@ -1,6 +1,6 @@
 # Inter-surface path loss modelling in 6G communications
 
-Nowadays multiple devices need to connect to the internet. Many of them need to comunicate through wireless means and so we need to improve the quality of such communications. Additionally, Internet protocols are evolving, and 6G is now available. Μorphologies of the environment tend to reduce the performance of wireless communications. A new technology called Meta-surfaces has come to increase the reliability and security of any communication. By utilizing such Meta-surfaces, the maximum distance restrictions associated with 6G can also be overcome and Non-Line of Site (NLOS) issues can be solved. 
+Nowadays multiple devices need to connect to the internet. Many of them need to comunicate through wireless means and so we need to improve the quality of such communications. Additionally, Internet protocols are evolving, and 6G is now available. Μorphologies of the environment tend to reduce the performance of wireless communications. A new technology called Meta-surfaces has come to increase the reliability and security of wireless communications. By utilizing such Meta-surfaces, the maximum distance restrictions associated with 6G can also be overcome and Non-Line of Site (NLOS) issues can be solved. Strange effects on Path Loss occur when using Meta-surfaces at different distance ranges. 
 
 ## About The Project
 
