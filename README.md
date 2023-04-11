@@ -8,27 +8,27 @@ This project simulates the behavior of communication between a Transmitter (Tx) 
 
 At the end of simulation, useful plots are displayed that presends the Path Loss between the two meta-surfaces, the RMSE and an exponent "n" of the general Path Loss Equation. 
 
-## Meta-surfaces
+### Meta-surfaces
 
 Meta-surfaces refers to a kind of artificial sheet material with sub-wavelength thickness. Meta-surfaces modulate the behaviors of electromagnetic waves through specific boundary conditions. They can manage the beams of a Trasmitter and can be controlled to customise the behaviour of a wireless communication. In this project we assume that Meta-surfaces have square shape and they can reflect signals with zero loss. A group of unit cells surfaces placed in a grid, forms a meta-surface.
 
-## Path Loss Model
+### Path Loss Model
 
 In this project we assume that the communication follows the Friis equation between each stage. Because of the Meta-surfaces, the Path Loss between them is going to have strange behavior and that is what this project is looking for. In general form of Path Loss equation, the exponent "n" is typically equals to 2 in Free Space Path Loss but using Meta-surfaces this exponent tends to be differend. For short distances the exponent "n" is less than 2 and for long distances, this exponent is almost equal to 2.
 
-## Ray Tracing
+### Ray Tracing
 
-Ray Tracing tenchniques are used to simulate the overal communication. The Meta-surfaces have square shape and for this reason we use Ray Tracing specifically for squares. (An inmplementaion for rectangles will also to the job but decreases the performance). GPU is being used to increase the overal performance.
+Ray Tracing tenchniques are used to simulate the overal communication. The Meta-surfaces have square shape and for this reason we use Ray Tracing specifically for squares. (An implementation of Ray Tracing for rectangles will also do the job but performance is decreasesing). GPU is being used to increase the overal performance.
 
-### Execution
+## Execution
 
-The project is implemented in Matlab. The user need to run the startProgram.m file. A GUI will pop-up and user can change multiple parameters to his needs.
+The project is implemented in Matlab. The user need to run the startProgram function which is located in Src/startProgram.m file. A GUI will pop-up and user can change multiple parameters to his needs.
 
 ## GUI
 
 ![GUI](img/GUI.png)
 
-The user can setup the environment that contains the Transmitter, the Receiver and the two Meta-surfaces.
+The user can setup the environment that contains a Transmitter, a Receiver and two Meta-surfaces.
 * It is possible to set the positioning of the Transmitter and Receiver and also Transmitter Power.
 * On each Meta-surface setting panel, user can customize the positioning, the angles and the size of the Meta-surface.
 * In general tab, user can set the Frequency of the radiowaves and also the number of the cells surfaces that forms the grid of Meta-surfaces by choosing the number of elements in one side.
